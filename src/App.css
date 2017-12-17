@@ -1,28 +1,56 @@
-.App {
+body{
+  background: green;
+  font-family: 'Helvetica';
+  color: #e4bb70;
+  width: 100%
+}
+
+h2{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.thing{
+  width: 100%;
+  display: flex;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.list{
+  width: 100%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.tables{
+  background: #e4bb70;
+  color: green;
+  width: 100%;
 }
 
-.App-intro {
-  font-size: large;
+.button{
+  margin: 0 0 2px 2px;
+  border: none;
+  background: green;
+  color: #e4bb70;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.display{
+  width: 71%;
+  margin: 19px;
+  height: 500px;
+  background: #e4bb70;
+  color: green;
+  float: right;
+}
+
+form{
+  margin: 1%;
+}
+
+input{
+  background: inherit;
+  border: 1px solid green;
+  color: green;
+}
+
+.submit{
+  background: green;
+  color: #e4bb70;
 }
