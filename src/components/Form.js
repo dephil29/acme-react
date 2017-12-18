@@ -33,9 +33,9 @@ class Form extends Component {
             'Accept': 'application/json, application/xml, text/plain, text/html, *.*',
             'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'
             },
-            body: JSON.stringify({name: "space", description: "maybe", price: "0", id: "16"})
+            body: JSON.stringify({})
           }).then(res => res.json())
-            .then(res => console.log(res))
+            .then(res => console.log(res));
         event.preventDefault();
     }
      
