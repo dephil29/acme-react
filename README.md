@@ -1,3 +1,5 @@
+The server is here: https://github.com/dephil29/acme-products
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
