@@ -2,10 +2,87 @@ body{
   background: green;
   font-family: 'Helvetica';
   color: #e4bb70;
-  width: 100%
+  padding: 1%;
 }
 
-h2{
+a{
+  text-decoration: none;
+  color: #e4bb70;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.homeWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.homeMessage{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.read{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.formAndKey{
+  display: flex;
+
+}
+
+.key{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  right: 7%;
+  position: fixed;
+}
+
+#titleContainer{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.title{
+  display: flex;
+  align-self: center;
+  font-size: 200px;
+}
+
+.create{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 93%;
+  height: fit-content;
+  background: #e4bb70;
+  color: green;
+}
+
+.mainLinkContainer{
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+}
+
+.mainLinks{
   text-align: center;
 }
 
@@ -14,43 +91,58 @@ h2{
   display: flex;
 }
 
-.list{
-  width: 100%;
-}
-
 .tables{
   background: #e4bb70;
   color: green;
-  width: 100%;
+  width: 70%;
+  border-bottom: 9px solid green;
+  padding-right: 1%;
 }
 
 .button{
   margin: 0 0 2px 2px;
   border: none;
   background: green;
-  color: #e4bb70;
-}
-
-.display{
-  width: 71%;
-  margin: 19px;
-  height: 500px;
-  background: #e4bb70;
-  color: green;
-  float: right;
+  color: rgb(228, 187, 112);
 }
 
 form{
   margin: 1%;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
 }
 
 input{
   background: inherit;
-  border: 1px solid green;
+  border: 1px solid;
   color: green;
+  width: 75%;
 }
 
 .submit{
   background: green;
   color: #e4bb70;
+}
+
+.arrow{
+  font-size: 200px;
+  margin: 0;
+  text-align: center;  
+}
+
+.deleteForm{
+  width: 50%;
+}
+
+.deleteInput{
+  width: 11%;
+}
+
+.deleteButton{
+  width: 25%;
+}
+
+.oneFuckingCharacter{
+  margin: 0;
 }
